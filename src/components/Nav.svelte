@@ -39,7 +39,7 @@
 						
 						</li>
 						<li class="nav-item dropdown mega-dropdown">
-							<a class="nav-link " href="/" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Who we are ?</a>
+							<a class="nav-link " href="/who-we-are" role="button">Who we are ?</a>
 						
 						</li>
 					
