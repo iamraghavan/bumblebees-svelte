@@ -26,14 +26,14 @@
 <header class="theme-main-menu sticky-menu theme-menu-one">
 	<div class="inner-content">
 		<div class="d-flex align-items-center justify-content-between">
-			<div class="logo"><a href="index.html"><img src="images/bumble-bees-logo.svg" alt="" width="200"></a></div>
+			<div class="logo"><a href="/"><img src="images/bumble-bees-logo.svg" alt="" width="200"></a></div>
 			<nav class="navbar navbar-expand-lg">
 				<button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span></span>
 				 </button>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav">
-						<li class="d-block d-lg-none"><div class="logo"><a href="index.html"><img src="images/bumble-bees-logo.svg" alt="" width="200"></a></div></li>
+						<li class="d-block d-lg-none"><div class="logo"><a href="/"><img src="images/bumble-bees-logo.svg" alt="" width="200"></a></div></li>
 						<li class="nav-item active dropdown mega-dropdown">
 							<a class="nav-link " href="/" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Home</a>
 						

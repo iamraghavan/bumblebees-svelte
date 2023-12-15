@@ -1,11 +1,11 @@
 <script>
   import Cta from "../components/CTA.svelte";
 import EnquiryForm from "../components/EnquiryForm.svelte";
-import Loader from "../components/Loader.svelte";
+
   import Test from "../components/Test.svelte";
 
 </script>
-<Loader/>
+
 
 <div class="inside-hero-one hero-spacing">
     <div class="container">
