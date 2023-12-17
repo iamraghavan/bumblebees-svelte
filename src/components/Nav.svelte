@@ -5,7 +5,10 @@
 	</div>
 	  
 	
-	  <div class="my-4"><a href="/login" class="theme-btn-one ripple-btn d-block"><img src="images/icon/icon_22.svg" alt="" class="me-2 ms-0"> login</a></div>
+	  <div class="my-4">
+		<a target="_top"  href="https://portal.bumblebees.co.in//client/dl/6_9bylpg2nxy7se540c8ww0vbvc1p4qi" class="theme-btn-one ripple-btn d-block">
+			
+ Download Broucher</a></div>
 	 
 
 	  <div class="address-block">
@@ -35,7 +38,7 @@
 					<ul class="navbar-nav">
 						<li class="d-block d-lg-none"><div class="logo"><a href="/"><img src="images/bumble-bees-logo.svg" alt="" width="200"></a></div></li>
 						<li class="nav-item active dropdown mega-dropdown">
-							<a class="nav-link " href="/" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Home</a>
+							<a class="nav-link " href="/">Home</a>
 						
 						</li>
 						<li class="nav-item dropdown mega-dropdown">
@@ -52,10 +55,10 @@
 											<div class="menu-column">
 												<h6 class="mega-menu-title">Website</h6>
 												<ul class="style-none mega-dropdown-list">
-													<li><a href="/" class="dropdown-item"><span>Landing Page</span></a></li>
-													<li><a href="/" class="dropdown-item"><span>Dynamic Website</span></a></li>
-													<li><a href="/" class="dropdown-item"><span>Wordpress Website</span></a></li>
-													<li><a href="/" class="dropdown-item"><span>Joomal / Shopify / Opencart</span></a></li>
+													<li><a href="/website/landing-page" class="dropdown-item"><span>Landing Page</span></a></li>
+													<li><a href="/website/dynamic-website" class="dropdown-item"><span>Dynamic Website</span></a></li>
+													<li><a href="/website/wordpress-website" class="dropdown-item"><span>Wordpress Website</span></a></li>
+													<li><a href="/website/cms" class="dropdown-item"><span>Joomal / Shopify / Opencart</span></a></li>
 													
 												</ul>
 											</div>
@@ -90,15 +93,15 @@
 							</ul>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link " href="/" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Blog</a>
+							<a class="nav-link " href="/blog">Blog</a>
 							
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link " href="/" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Contact Us</a>
+							<a class="nav-link " href="/contact" >Contact Us</a>
 						
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link " href="/" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Career</a>
+							<a class="nav-link " href="/career">Career</a>
 						
 						</li>
 					</ul>

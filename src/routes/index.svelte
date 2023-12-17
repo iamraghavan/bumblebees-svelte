@@ -53,7 +53,6 @@ import Loader from "../components/Loader.svelte";
 
 </script>
 
-<Loader />
 
 <div class="hero-banner-five mt-225 md-mt-150">
   <div class="container">
