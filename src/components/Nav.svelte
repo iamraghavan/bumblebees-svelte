@@ -11,6 +11,8 @@
  Download Broucher</a></div>
 	 
 
+ <p>MSME : UDYAM-TN-13-0004198</p>
+
 	  <div class="address-block">
 		  <h4 class="title">Our Address</h4>
 		  <p>No: 2 Dhermer Street, Collector Office (Pt)  <br>Nagapattinam, Tamil Nadu - 611003</p>
@@ -67,7 +69,7 @@
 											<div class="menu-column">
 												<h6 class="mega-menu-title">Marketing</h6>
 												<ul class="style-none mega-dropdown-list">
-													<li><a href="/" class="dropdown-item"><span>Social Media Manager</span></a></li>
+													<li><a href="/marketing/social-media-manager" class="dropdown-item"><span>Social Media Manager</span></a></li>
 													<li><a href="/" class="dropdown-item"><span>Social Media Marketing</span></a></li>
 													<li><a href="/" class="dropdown-item"><span>Google Ads</span></a></li>
 													<li><a href="/" class="dropdown-item"><span>SEO & Google My Business</span></a></li>
@@ -106,10 +108,7 @@
 						</li>
 					</ul>
 					<div class="mobile-content d-block d-lg-none">
-						<form action="#" class="search-form">
-							  <input type="text" placeholder="Search here..">
-							  <button><i class="bi bi-search"></i></button>
-						  </form>
+						
 
 						  <div class="address-block">
 							  <h4 class="title">Our Address</h4>

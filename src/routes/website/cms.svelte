@@ -6,6 +6,19 @@
         { title: "Shopify Solutions", description: "Building scalable and visually stunning online stores with customized Shopify development." },
         { title: "Opencart Expertise", description: "Providing comprehensive Opencart solutions for seamless e-commerce experiences." },
     ];
+    let logos = [
+
+    
+    "https://docs.joomla.org/images/2/2c/Horizontal-logo-light-background-en.png",
+    "https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopify_logo_2018.svg",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/OpenCart_logo.svg/512px-OpenCart_logo.svg.png",
+    "https://cdn.shopify.com/app-store/listing_images/5a5385cf8a756c3fc55c4fb80706f9f6/icon/CLa98_yf6PMCEAE=.png",
+    "https://upload.wikimedia.org/wikipedia/commons/e/eb/Linktree-logo-2.png",
+    "https://www.coywolf.news/wp-content/uploads/2020/05/og-shop-app.png"
+
+    
+  ];
+
 </script>
 
 
@@ -68,6 +81,39 @@
         </div>
     </div>
 </div>
+
+
+<div class="partner-section-two pt-180 mb-200 lg-pt-50 lg-mb-100">
+    <img src="images/shape/shape_13.svg" alt="" class="shapes shape-one">
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-7 col-xl-8 col-lg-6 col-md-8 col-sm-10 m-auto">
+          <div class="title-style-one text-center">
+            <div class="upper-title">In partners</div>
+            <h2 class="title">Joomal / Shopify / Opencart<span>Trusted and Authorized</span>Collaborator</h2>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-xl-11 m-auto">
+          <div class="partent-logos">
+            <div class="row g-0">
+              {#each logos as logo, index (index)}
+                <div class="col-md-3 col-6">
+                  <div class="logo d-flex align-items-center justify-content-center">
+                    <a href="/"><img src={logo} style="height: auto;
+                        padding: 0 1.3rem;
+                        width: 15rem;" alt={`Logo ${index + 1}`} class="tran3s"></a>
+                  </div>
+                </div>
+              {/each}
+            </div>
+          </div> <!-- /.partent-logos -->
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 

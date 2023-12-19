@@ -3954,15 +3954,14 @@
  .partner-section-two .partent-logos {
      max-width: 1170px;
      margin: 130px auto 0;
-     border: 1px solid #dedede;
+     /* border: 1px solid #dedede; */
      border-bottom: none;
      border-right: none
  }
 
  .partner-section-two .partent-logos .logo {
      height: 175px;
-     border-bottom: 1px solid #dedede;
-     border-right: 1px solid #dedede
+
  }
 
  .partner-section-two .partent-logos .logo:hover img {

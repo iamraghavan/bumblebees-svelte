@@ -6,6 +6,23 @@
       { title: "Dynamic Content Management", description: "Empowering your website with a user-friendly CMS for easy content updates." },
       { title: "Responsive Design", description: "Ensuring your website looks stunning and functions seamlessly across all devices." },
     ];
+
+    let logos = [
+    "https://miro.medium.com/v2/resize:fit:720/format:webp/0*lPloL8w-ZKtjxeB5.png",
+    "https://upload.wikimedia.org/wikipedia/commons/3/37/Firebase_Logo.svg",
+    "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+    "https://cdn.icon-icons.com/icons2/2699/PNG/512/laravel_logo_icon_170314.png",
+    "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cloudflare_Logo.svg",
+    "https://upload.wikimedia.org/wikipedia/commons/b/b8/Netlify_logo.svg",
+    "https://upload.wikimedia.org/wikipedia/labs/8/8e/Mysql_logo.png",
+    "https://emberjs.com/images/brand/ember-tomster-lockup-4c.svg",
+    
+    
+
+    
+  ];
+
+
   </script>
 
 
@@ -26,7 +43,7 @@
 
 <div class="vcamp-text-block-thirteen pt-150 mb-130 lg-pt-100 lg-mb-80">
     <div class="container">
-        <div class="img-media mb-80 lg-mb-40"><img src="images/website-dy.png" alt="" class="w-100"></div>
+        <div class="img-media mb-80 lg-mb-40"><img src="  " alt="" class="w-100"></div>
         <div class="row mb-40">
             <div class="col-lg-12">
                 <p class="lead">Elevate your online presence with Bumble Bees IT Solutions, the dynamic website development experts. Our commitment goes beyond mere websites; we create digital experiences that leave a lasting impression.</p>
@@ -61,6 +78,38 @@
         </div>
     </div>
 </div>
+
+<div class="partner-section-two pt-180 mb-200 lg-pt-50 lg-mb-100">
+    <img src="images/shape/shape_13.svg" alt="" class="shapes shape-one">
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-7 col-xl-8 col-lg-6 col-md-8 col-sm-10 m-auto">
+          <div class="title-style-one text-center">
+            <div class="upper-title">In partners</div>
+            <h2 class="title">Our <span>Trusted and Authorized </span> Technology Collaborator</h2>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-xl-11 m-auto">
+          <div class="partent-logos">
+            <div class="row g-0">
+              {#each logos as logo, index (index)}
+                <div class="col-md-3 col-6">
+                  <div class="logo d-flex align-items-center justify-content-center">
+                    <a href="/"><img src={logo} style="height: auto;
+                        padding: 0 1.3rem;
+                        width: 15rem;" alt={`Logo ${index + 1}`} class="tran3s"></a>
+                  </div>
+                </div>
+              {/each}
+            </div>
+          </div> <!-- /.partent-logos -->
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 <div class="vcamp-feature-section-seven mt-70">

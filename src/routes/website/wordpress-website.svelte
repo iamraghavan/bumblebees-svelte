@@ -6,6 +6,19 @@
           { title: "Plugin Development", description: "Creating custom plugins to enhance functionality and meet specific business requirements." },
           { title: "WordPress Maintenance", description: "Providing ongoing support and maintenance to ensure your WordPress website runs smoothly." },
       ];
+
+      let logos = [
+
+"https://wpsso.com/wp-content/uploads/2019/03/woocommerce-logo-1200x1200.png",
+"https://upload.wikimedia.org/wikipedia/commons/b/ba/Stripe_Logo%2C_revised_2016.svg",
+"https://upload.wikimedia.org/wikipedia/commons/a/a4/Paypal_2014_logo.png",
+"https://upload.wikimedia.org/wikipedia/commons/3/3d/Square%2C_Inc._logo.svg",
+"https://wpengine.com/solution-center/wp-content/uploads/wprocket-1544x500.png",
+"https://upload.wikimedia.org/wikipedia/commons/a/ac/Semrush_logo.svg",
+"https://historichawaii.org/wp-content/plugins/wp-mail-smtp/assets/images/reports/email/wp-mail-smtp-logo.png",
+"https://www.thebpmfestival.com/wp-content/plugins/wordfence/images/logo.png",
+
+    ];
   </script>
   
   <div class="inside-hero-three bg-color">
@@ -64,6 +77,39 @@
               </div>
           </div>
       </div>
+  </div>
+
+
+  <div class="partner-section-two pt-180 mb-200 lg-pt-50 lg-mb-100">
+    <img src="images/shape/shape_13.svg" alt="" class="shapes shape-one">
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-7 col-xl-8 col-lg-6 col-md-8 col-sm-10 m-auto">
+          <div class="title-style-one text-center">
+            <div class="upper-title">In partners</div>
+            <h2 class="title">WordPress <span>Trusted and Authorized </span> Collaborator</h2>
+          </div>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-xl-11 m-auto">
+          <div class="partent-logos">
+            <div class="row g-0">
+              {#each logos as logo, index (index)}
+                <div class="col-md-3 col-6">
+                  <div class="logo d-flex align-items-center justify-content-center">
+                    <a href="/"><img src={logo} style="height: auto;
+                        padding: 0 1.8rem;
+                        width: 15rem;" alt={`Logo ${index + 1}`} class="tran3s"></a>
+                  </div>
+                </div>
+              {/each}
+            </div>
+          </div> <!-- /.partent-logos -->
+        </div>
+      </div>
+    </div>
   </div>
   
   <!-- Section for showcasing individual WordPress services -->

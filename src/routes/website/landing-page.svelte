@@ -8,6 +8,17 @@
       { title: "Digital Success Through Design", description: "Achieve lasting business goals with our Chennai-based web design expertise for effective online engagement." },
 
     ];
+
+    
+    let logos = [
+
+    "https://logovectorseek.com/wp-content/uploads/2019/10/bootstrap-logo-vector.png",
+    "https://getlogovector.com/wp-content/uploads/2021/01/tailwind-css-logo-vector.png",
+    "https://miro.medium.com/v2/resize:fit:720/format:webp/0*lPloL8w-ZKtjxeB5.png",
+    "https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png",
+    
+
+    ];
   </script>
 
 <div class="inside-hero-three bg-color">
@@ -45,6 +56,39 @@
         </div>
         
     </div>
+</div>
+
+
+<div class="partner-section-two pt-180 mb-200 lg-pt-50 lg-mb-100">
+  <img src="images/shape/shape_13.svg" alt="" class="shapes shape-one">
+  <div class="container">
+    <div class="row">
+      <div class="col-xxl-7 col-xl-8 col-lg-6 col-md-8 col-sm-10 m-auto">
+        <div class="title-style-one text-center">
+          <div class="upper-title">In partners</div>
+          <h2 class="title">Our <span>Trusted and Authorized </span> Technology Collaborator</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xl-11 m-auto">
+        <div class="partent-logos">
+          <div class="row g-0">
+            {#each logos as logo, index (index)}
+              <div class="col-md-3 col-6">
+                <div class="logo d-flex align-items-center justify-content-center">
+                  <a href="/"><img src={logo} style="height: auto;
+                      padding: 0 1.8rem;
+                      width: 15rem;" alt={`Logo ${index + 1}`} class="tran3s"></a>
+                </div>
+              </div>
+            {/each}
+          </div>
+        </div> <!-- /.partent-logos -->
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="vcamp-feature-section-seven mt-70">

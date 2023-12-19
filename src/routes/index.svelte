@@ -53,12 +53,22 @@ import Loader from "../components/Loader.svelte";
 
 </script>
 
+<style>
+   @media (min-width: 576px) { 
+
+    .h1of{
+      font-size: 85px !important;
+    }
+
+    }
+</style>
+
 
 <div class="hero-banner-five mt-225 md-mt-150">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 ms-auto">
-        <h1 class="hero-heading">{heroHeading}</h1>
+        <h1 class="hero-heading h1of" >{heroHeading}</h1>
         <p class="hero-sub-heading text-lg">{heroSubHeading}</p>
       </div>
     </div>
