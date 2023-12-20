@@ -13,7 +13,7 @@
     });
   
     async function updateUser() {
-      const response = await fetch(`http://localhost:3002/api/users/${editingUserId}`, {
+      const response = await fetch(`https://sample-mysql.onrender.com/api/users/${editingUserId}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -60,7 +60,7 @@
     }
   
     async function addUser() {
-      const response = await fetch('http://localhost:3002/api/users', {
+      const response = await fetch('https://sample-mysql.onrender.com/api/users', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -89,7 +89,7 @@
       // Implement the delete logic here
       const confirmDelete = confirm('Are you sure you want to delete this user?');
       if (confirmDelete) {
-        const response = await fetch(`http://localhost:3002/api/users/${userId}`, {
+        const response = await fetch(`https://sample-mysql.onrender.com/api/users/${userId}`, {
           method: 'DELETE',
         });
   
@@ -102,7 +102,7 @@
     }
   
     async function fetchUsers() {
-      const response = await fetch('http://localhost:3002/api/users');
+      const response = await fetch('https://sample-mysql.onrender.com/api/users');
       users = await response.json();
     }
   </script>
