@@ -107,7 +107,7 @@
     }
   </script>
   
-  <main style="margin-top: 10rem;">
+  <div style="margin-top: 10rem;">
     <form on:submit|preventDefault={handleSubmit}>
       <label for="name">Name:</label>
       <input type="text" id="name" bind:value={name} required />
@@ -146,10 +146,10 @@
         </tbody>
       </table>
     {/if}
-  </main>
+  </div>
   
   <style>
-    main {
+    div {
       text-align: center;
       margin: 2rem;
     }
