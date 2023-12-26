@@ -1,3 +1,13 @@
+<svelte:head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bumble Bees IT Solutions Careers Your Path to Professional Excellence</title>
+<meta name="description" content="Explore exciting career opportunities at Bumble Bees IT Solutions. Join us and shape the future of tech innovation together.">
+<meta name="author" content="Bumble Bees IT Solutions">
+<meta name="copyright" content="Bumble Bees IT Solutions">
+<meta name="robots" content="index, follow">
+</svelte:head>
+
 <script>
     import { onMount } from 'svelte';
   

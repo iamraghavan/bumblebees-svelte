@@ -1,3 +1,13 @@
+<svelte:head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bumble Bees IT Solutions - Unveiling Our Identity and Expertise</title>
+<meta name="description" content="Discover the essence of Bumble Bees IT Solutions. Who we are, what we stand for – your partner in tech innovation and excellence.">
+<meta name="author" content="Bumble Bees IT Solutions">
+<meta name="copyright" content="Bumble Bees IT Solutions">
+<meta name="robots" content="index, follow">
+</svelte:head>
+
 <script>
   import Cta from "../components/CTA.svelte";
 import EnquiryForm from "../components/EnquiryForm.svelte";

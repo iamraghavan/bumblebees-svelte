@@ -1,3 +1,13 @@
+<svelte:head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bumble Bees IT Solutions: Expert WordPress Website Development for Your Business Success</title>
+<meta name="description" content="Unlock the potential of your business with Bumble Bees IT Solutions. We specialize in creating powerful WordPress websites tailored to your needs.">
+<meta name="author" content="Bumble Bees IT Solutions">
+<meta name="copyright" content="Bumble Bees IT Solutions">
+<meta name="robots" content="index, follow">
+</svelte:head>
+
 <script>
     import EnquiryForm from "../../components/EnquiryForm.svelte";
   

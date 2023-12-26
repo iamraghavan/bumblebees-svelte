@@ -1,3 +1,22 @@
+<svelte:head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bumble Bees IT Solutions: Mastering Social Media Marketing Strategies for Business Growth</title>
+<meta name="description" content="Elevate your brand with Bumble Bees IT Solutions - Experts in crafting effective Social Media Marketing campaigns. Drive engagement, build connections, and boost your online presence. Let's shape your digital success together!">
+<meta name="author" content="Bumble Bees IT Solutions">
+<meta name="copyright" content="Bumble Bees IT Solutions">
+<meta name="robots" content="index, follow">
+
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
+</svelte:head>
+
 <script>
     import EnquiryForm from "../../components/EnquiryForm.svelte";
     import { onMount } from "svelte";
@@ -27,14 +46,7 @@
     });
 </script>
 
-<svelte:head>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
-</svelte:head>
+
 
 <div class="inside-hero-three bg-color">
     <img src="images/shape/shape_35.svg" alt="" class="shapes shape-one">

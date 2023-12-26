@@ -1,3 +1,13 @@
+<svelte:head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bumble Bees IT Solutions: Empowering Your Success with Innovative Landing Page Designs</title>
+<meta name="description" content="Elevate your online presence with Bumble Bees IT Solutions. Expertly crafted landing pages for a seamless user experience. Drive success today!">
+<meta name="author" content="Bumble Bees IT Solutions">
+<meta name="copyright" content="Bumble Bees IT Solutions">
+<meta name="robots" content="index, follow">
+</svelte:head>
+
 <script>
 
     import EnquiryForm from "../../components/EnquiryForm.svelte";

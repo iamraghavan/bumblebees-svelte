@@ -44,9 +44,9 @@
                 </ul>
                 <h5 class="title" style="padding-top: 1.6rem;">Legal</h5>
                 <ul class="footer-list style-none">
-                    <li><a href="/who-we-are">Terms &amp; Conditions</a></li>
-                    <li><a href="/contact">Privacy Policy</a></li>
-                    <li><a href="/career">Payment Policy</a></li>
+                    <li><a href="/legal/terms-and-condition">Terms &amp; Conditions</a></li>
+                    <li><a href="/legal/privacy-policy">Privacy Policy</a></li>
+                   
         
                 </ul>
             </div>
@@ -90,9 +90,9 @@
                 </div>
                 <div class="col-lg-4 order-lg-3 mb-15">
                     <ul class="d-flex justify-content-center justify-content-lg-end social-icon style-none">
-                        <li><a href="/"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="/"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="/"><i class="fab fa-pinterest-p"></i></a></li>
+                        <li><a href="https://www.facebook.com/bumblebeesindia"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/bumblebees_india/"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/itzbumblebees/"><i class="fab fa-linkedin"></i></a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 order-lg-2 mb-15">

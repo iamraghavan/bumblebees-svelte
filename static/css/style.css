@@ -8232,7 +8232,7 @@
  }
 
  .error-page {
-     background: #232132;
+     background: #FFF;
      min-height: 100vh;
      padding: 185px 10% 50px;
      position: relative;
@@ -8247,12 +8247,12 @@
 
  .error-page h1 {
      font-size: 82px;
-     color: #fff;
+     color: #000;
      padding: 10px 0 25px
  }
 
  .error-page p {
-     color: #fff;
+     color: #000;
      margin-bottom: 55px;
  }
 

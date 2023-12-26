@@ -20,10 +20,10 @@
 		  
 	  </div>
 	  <ul class="d-flex social-icon style-none mt-20">
-		<li><a href="/"><i class="fab fa-facebook-f"></i></a></li>
-		<li><a href="/"><i class="fab fa-instagram"></i></a></li>
-		<li><a href="/"><i class="fab fa-whatsapp"></i></a></li>
-		<li><a href="/"><i class="fab fa-linkedin-in"></i></a></li>
+		<li><a target="_blank" href="https://www.facebook.com/bumblebeesindia"><i class="fab fa-facebook-f"></i></a></li>
+		<li><a target="_blank" href="https://www.instagram.com/bumblebees_india/"><i class="fab fa-instagram"></i></a></li>
+		<li><a target="_blank" href="https://api.whatsapp.com/send?phone=919942502245&text=Hi%20!%20%2C%20I%20want%20more%20info%20about%20your%20services"><i class="fab fa-whatsapp"></i></a></li>
+		<li><a target="_blank" href="https://www.linkedin.com/company/itzbumblebees/"><i class="fab fa-linkedin-in"></i></a></li>
 	</ul>
 </div> 
 
@@ -99,7 +99,7 @@
 						
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link " target="_blank" href="https://forms.gle/yQKWTE1L6NnezTvC9">Career</a>
+							<a class="nav-link " href="/career">Career</a>
 						
 						</li>
 					</ul>

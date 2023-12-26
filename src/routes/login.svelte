@@ -1,3 +1,14 @@
+<svelte:head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login - Bumble Bees Client Portal </title>
+<meta name="description" content="Login - Bumble Bees Client Portal">
+<meta name="author" content="Bumble Bees IT Solutions">
+<meta name="copyright" content="Bumble Bees IT Solutions">
+<meta name="robots" content="index, follow">
+    
+</svelte:head>
+
 <div class="user-data-page clearfix d-md-flex">
     <div class="illustration-wrapper d-none d-md-flex align-items-center justify-content-between flex-column" style="background: #F9F5F0;;">
         <div class="row">

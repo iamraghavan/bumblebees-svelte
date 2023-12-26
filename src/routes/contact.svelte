@@ -1,3 +1,13 @@
+<svelte:head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Us - Bumble Bees IT Solutions - Connect with Excellence</title>
+<meta name="description" content="Reach out to Bumble Bees IT Solutions for personalized tech services. Let's shape your success together. Contact us now!">
+<meta name="author" content="Bumble Bees IT Solutions">
+<meta name="copyright" content="Bumble Bees IT Solutions">
+<meta name="robots" content="index, follow">
+</svelte:head>
+
 <script>
 
 import emailjs from 'emailjs-com';

@@ -1,3 +1,13 @@
+<svelte:head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bumble Bees IT Solutions: Expert Joomla, Shopify, and Opencart Development Services</title>
+<meta name="description" content="Unlock the potential of your online presence with Bumble Bees IT Solutions. Specializing in Joomla, Shopify, and Opencart development for seamless digital success.">
+<meta name="author" content="Bumble Bees IT Solutions">
+<meta name="copyright" content="Bumble Bees IT Solutions">
+<meta name="robots" content="index, follow">
+</svelte:head>
+
 <script>
   import EnquiryForm from "../../components/EnquiryForm.svelte";
 
