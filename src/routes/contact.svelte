@@ -1,4 +1,54 @@
 <script>
+
+import emailjs from 'emailjs-com';
+  import Swal from 'sweetalert2';
+
+  let firstName = '';
+  let lastName = '';
+  let phone = '';
+  let email = '';
+  let message = '';
+
+  const handleSubmit = async () => {
+    const data = {
+      firstName,
+      lastName,
+      phone,
+      email,
+      message,
+    };
+
+    try {
+      const response = await emailjs.send('service_oz7fhvm', 'template_lgkftv9', data, 'pJwMrOQHE7viiRAtn');
+      
+      if (response.status === 200) {
+        // Use SweetAlert for success
+        Swal.fire({
+          icon: 'success',
+          title: 'Email sent successfully',
+          showConfirmButton: false,
+          timer: 1500,
+        });
+      } else {
+        // Use SweetAlert for failure
+        Swal.fire({
+          icon: 'error',
+          title: 'Failed to send email',
+          text: 'Please try again.',
+        });
+        console.error('Failed to send email:', response);
+      }
+    } catch (error) {
+      // Use SweetAlert for error
+      Swal.fire({
+        icon: 'error',
+        title: 'Error sending email',
+        text: 'An error occurred. Please try again later.',
+      });
+      console.error('Error sending email:', error);
+    }
+  };
+
     let a = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125412.95375547503!2d79.7500019072146!3d10.79945309398845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9e20bdc4bfed073%3A0x7fca72dab56ace1e!2sBumble%20Bees%20IT%20Solutions!5e0!3m2!1sen!2sin!4v1702625808604!5m2!1sen!2sin";
 </script>
 
@@ -42,7 +92,7 @@
         <div class="row">
             <div class="col-xl-11 m-auto">
                 <div class="form-style-one">
-                    <form action="inc/contact.php" id="contact-form" data-toggle="validator" novalidate="true">
+                    <form action="" id="contact-form" data-toggle="validator" novalidate="true">
                         <div class="messages"></div>
                         <div class="row controls">
                             <div class="col-sm-6">

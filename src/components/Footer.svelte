@@ -1,44 +1,82 @@
 <script>
      const currentYear = new Date().getFullYear();
+
+
+     let services = [
+    { name: "Landing Page", path: "/website/landing-page" },
+    { name: "Dynamic Website", path: "/website/dynamic-website" },
+    { name: "WordPress Website", path: "/website/wordpress-website" },
+    { name: "Joomla / Shopify / Opencart", path: "/website/cms" },
+    { name: "Social Media Manager", path: "/marketing/social-media-manager" },
+    { name: "Social Media Marketing", path: "/marketing/social-media-marketing" },
+    { name: "Search Engine Optimization", path: "/marketing/search-engine-optimization" },
+    { name: "Social Media Ads Design", path: "/production/social-media-ads-design" },
+  ];
+
 </script>
 
+<style>
+
+
+
+
+
+</style>
 <footer class="vcamp-footer-two dark-footer pt-150 lg-pt-100">
     <div class="container">
         <div class="row">
             <div class="col-xl-3 col-lg-2 mb-40">
                 <div class="logo"><a href="index.html"><img src="images/bbwhite.svg" style="padding: 0rem 1rem;" alt="Bumble Bees IT Solutions"></a></div>
+                <div class="newsletter">
+                    <p class="">
+                        We Design Your Dreams with Care and Creativity
+                   </p>
+                </div>   
+                
             </div>
             <div class="col-lg-2 col-md-3 col-sm-6 mb-40">
                 <h5 class="title">Links</h5>
                 <ul class="footer-list style-none">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="pricingV1.html">Pricing</a></li>
-                    <li><a href="about-usV1.html">About us</a></li>
-                    <li><a href="serviceV2.html">Service</a></li>
-                    <li><a href="serviceV3.html">Features</a></li>
-                    <li><a href="blogV4.html">Blog</a></li>
+                    <li><a href="/who-we-are">Our History</a></li>
+                    <li><a href="/contact">Contact Our Team</a></li>
+                    <li><a href="/career">Career / Internships</a></li>
+        
+                </ul>
+                <h5 class="title" style="padding-top: 1.6rem;">Legal</h5>
+                <ul class="footer-list style-none">
+                    <li><a href="/who-we-are">Terms &amp; Conditions</a></li>
+                    <li><a href="/contact">Privacy Policy</a></li>
+                    <li><a href="/career">Payment Policy</a></li>
+        
                 </ul>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 mb-40">
-                <h5 class="title">Legal</h5>
+                <h5 class="title">Our Services</h5>
                 <ul class="footer-list style-none">
-                    <li><a href="faqV1.html">Terms of use</a></li>
-                    <li><a href="faqV1.html">Terms &amp; conditions</a></li>
-                    <li><a href="faqV1.html">Privacy policy</a></li>
-                    <li><a href="faqV1.html">Cookie policy</a></li>
-                </ul>
+                    {#each services as { name, path } (name)}
+      <li><a href={path}>{name}</a></li>
+    {/each}
+                  </ul>
             </div>
             <div class="col-lg-4 col-md-6 mb-40">
-                <div class="newsletter">
-                    <h5 class="title">Newslettert</h5>
-                    <p>Join over <span>68,000</span> people getting our emails</p>
-                    <form action="#">
-                        <input type="email" placeholder="Enter your email">
-                        <button>Sign Up</button>
-                    </form>
-                    <div class="info">We only send interesting and relevant emails.</div>
-                </div> <!-- /.newsletter -->
+                <h5 class="title">When Our Bee's Got Recognized</h5>
+                <div class="row logos-container d-flex justify-content-center align-items-center">
+                    <div class="col-6">
+                        <img src="images/good-firms.png" alt="" srcset="">
+                    </div>
+                    <div class="col-6">
+                        <img src="images/startup-india-logo1-02-500x500.webp" alt="" srcset="">
+                    </div>
+                    <div class="col-6">
+                        <img src="https://seeklogo.com/images/G/google-partner-logo-2BA563BAC5-seeklogo.com.png" alt="" srcset="">
+                    </div>
+                    <div class="col-6">
+                        <img src="images/aws-partner-network.png" alt="" srcset="">
+                    </div>
+                </div>
             </div>
+            
+            
         </div>
     </div>
     <div class="container">

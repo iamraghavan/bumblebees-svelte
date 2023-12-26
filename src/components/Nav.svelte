@@ -22,7 +22,7 @@
 	  <ul class="d-flex social-icon style-none mt-20">
 		<li><a href="/"><i class="fab fa-facebook-f"></i></a></li>
 		<li><a href="/"><i class="fab fa-instagram"></i></a></li>
-		<li><a href="/"><i class="fab fa-twitter"></i></a></li>
+		<li><a href="/"><i class="fab fa-whatsapp"></i></a></li>
 		<li><a href="/"><i class="fab fa-linkedin-in"></i></a></li>
 	</ul>
 </div> 
@@ -71,10 +71,7 @@
 												<ul class="style-none mega-dropdown-list">
 													<li><a href="/marketing/social-media-manager" class="dropdown-item"><span>Social Media Manager</span></a></li>
 													<li><a href="/marketing/social-media-marketing" class="dropdown-item"><span>Social Media Marketing</span></a></li>
-													<li><a href="/" class="dropdown-item"><span>Google Ads</span></a></li>
-													<li><a href="/" class="dropdown-item"><span>SEO & Google My Business</span></a></li>
-
-													
+													<li><a href="/marketing/search-engine-optimization" class="dropdown-item"><span>Search Engine Optimization</span></a></li>
 												</ul>
 											</div>
 										</div>
@@ -82,10 +79,9 @@
 											<div class="menu-column">
 												<h6 class="mega-menu-title">Production</h6>
 												<ul class="style-none mega-dropdown-list">
-													<li><a href="/" class="dropdown-item"><span>Social Media Ads Design</span></a></li>
-													<li><a href="/" class="dropdown-item"><span>Product Design</span></a></li>
-													<li><a href="/" class="dropdown-item"><span>Advertisements and Commercials</span></a></li>
-													<li><a href="/" class="dropdown-item"><span>Company branding</span></a></li>
+													<li><a href="/production/social-media-ads-design" class="dropdown-item"><span>Social Media Ads Design</span></a></li>
+													<!-- <li><span>to be updated soon</span></li> -->
+													<!-- <li><a href="/" class="dropdown-item"><span>Company branding</span></a></li> -->
 													
 												</ul>
 											</div>
@@ -103,7 +99,7 @@
 						
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link " href="/whoisupdate">Career</a>
+							<a class="nav-link " target="_blank" href="https://forms.gle/yQKWTE1L6NnezTvC9">Career</a>
 						
 						</li>
 					</ul>
@@ -121,7 +117,7 @@
 				</div>
 			</nav>
 			<div class="right-widget d-flex align-items-center">
-				<a href="sign-in.html" class="d-flex align-items-center login-btn">
+				<a href="/login" class="d-flex align-items-center login-btn">
 					<img src="images/icon/icon_01.svg" alt="">
 					<span>login</span>
 				</a>

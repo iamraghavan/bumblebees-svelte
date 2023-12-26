@@ -226,7 +226,7 @@ import EnquiryForm from "../components/EnquiryForm.svelte";
                         <div class="logo d-flex align-items-center"><a href="/"><img src="https://gogreenllc.org/wp-content/uploads/2023/10/GoGreenColor-2.png" alt="GoGreen" class="tran3s"></a></div>
                     </div>
                     <div class="col-sm-4 col-6">
-                        <div class="logo d-flex align-items-center"><a href="/"><img src="https://theiafashions.com/wp-content/uploads/2023/10/Asset-1Gold-Logo.png" alt="Theia Fashions" class="tran3s"></a></div>
+                        <div class="logo d-flex align-items-center"><a href="/"><img src="https://theiafashions.com/wp-content/uploads/2023/12/Asset-1Gold-Logo.png" alt="Theia Fashions" class="tran3s"></a></div>
                     </div>
                     <div class="col-sm-4 col-6">
                         <div class="logo d-flex align-items-center"><a href="/"><img src="https://firebasestorage.googleapis.com/v0/b/adhitya-builders.appspot.com/o/Assets%2FLogo%2Flogo.png?alt=media&token=0ff9ca9a-a9a5-4eaa-b679-266a39141a31" alt="AD Builders" class="tran3s"></a></div>

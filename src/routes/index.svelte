@@ -1,3 +1,13 @@
+<svelte:head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bumble Bees IT Solutions - Transforming Ideas into Reality for Your Tech Excellence</title>
+<meta name="description" content="Discover seamless IT solutions with Bumble Bees in Chennai. From troubleshooting to innovations, we've got your tech covered! ">
+<meta name="author" content="Bumble Bees IT Solutions">
+<meta name="copyright" content="Bumble Bees IT Solutions">
+<meta name="robots" content="index, follow">
+</svelte:head>
+
 <script>
   import Cta from "../components/CTA.svelte";
   import EnquiryForm from "../components/EnquiryForm.svelte";

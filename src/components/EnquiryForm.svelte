@@ -1,68 +1,75 @@
 <script>
-    import { onMount } from 'svelte';
-    import emailjs from 'emailjs-com';
-    import Swal from 'sweetalert2';
+  import { onMount } from 'svelte';
+  import emailjs from 'emailjs-com';
+  import Swal from 'sweetalert2';
+  let name = '';
+  let email = '';
+  let contactNumber = '';
+  let appointmentTime = '';
+  let appointmentDate = '';
 
-      
-  
-    let name = '';
-    let email = '';
-    let message = '';
-    let contactNumber = '';
-    let isWhatsapp ="";
-    let whatsappNumber = '';
-    let services = [];
-    let recaptchaResponse = '';
-let appointmentTime ="";
+  onMount(() => {
+    // Load Cloudflare Turnstile script dynamically
+    const script = document.createElement('script');
+    script.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+    script.setAttribute('data-cf-beacon', '{"token": "4AAAAAAACC60E1r0uX5QL4"}');
+    document.head.appendChild(script);
+  });
 
-let appointmentDate= "";
-  
-    onMount(() => {
-      emailjs.init('user_your_emailjs_user_id'); // Replace with your EmailJS user ID
-    });
-  
-    const handleSubmit = async () => {
-      if (!recaptchaResponse) {
-        showError('Please complete the reCAPTCHA verification.');
-        return;
+  const handleSubmit = async () => {
+    // Perform Turnstile verification
+    // Cloudflare Turnstile will handle the security checks
+
+    // Prepare data for email
+    const data = {
+      name,
+      email,
+      contactNumber,
+      appointmentTime,
+      appointmentDate,
+    };
+
+    try {
+      // Send email using Email.js
+      const response = await emailjs.send('service_oz7fhvm', 'template_lgkftv9', data, 'pJwMrOQHE7viiRAtn');
+
+      // Check the response status
+      if (response.status === 200) {
+        
+       
+        showSuccess('Message sent successfully! Our Team will be contacting you soon');
+      } else {
+        // Handle the case when email sending fails
+        console.error('Failed to send email:', response);
+        showError('Failed to send email. Please try again.');
       }
-  
-      try {
-        // Send the form using EmailJS
-        const templateParams = {
-          name,
-          email,
-          message,
-          contactNumber: whatsappNumber ? whatsappNumber : contactNumber,
-          selectedServices: selectedServices.join(', '),
-        };
-  
-        const response = await emailjs.send('default_service', 'template_your_emailjs_template_id', templateParams);
-  
-        // Show success message
-        showSuccess('Message sent successfully!');
-      } catch (error) {
-        console.error('Failed to send:', error);
-        showError('Failed to send the message. Please try again.');
-      }
-    };
-  
-    const showSuccess = (message) => {
-      Swal.fire({
-        icon: 'success',
-        title: 'Success!',
-        text: message,
-      });
-    };
-  
-    const showError = (message) => {
-      Swal.fire({
-        icon: 'error',
-        title: 'Error',
-        text: message,
-      });
-    };
-  </script>
+    } catch (error) {
+      // Handle any errors that occur during the email sending process
+      console.error('Error sending email:', error);
+      showError('An error occurred. Please try again later.');
+    }
+  };
+
+  const showSuccess = (message) => {
+  // Implement SweetAlert for success message
+  Swal.fire({
+    icon: 'success',
+    title: 'Success',
+    text: message,
+  });
+};
+
+const showError = (message) => {
+  // Implement SweetAlert for error message
+  Swal.fire({
+    icon: 'error',
+    title: 'Error',
+    text: message,
+  });
+}
+</script>
+
+<!-- Your HTML code for the form goes here -->
 
 
 
@@ -83,31 +90,30 @@ let appointmentDate= "";
                 </div>
                 <div class="col-lg-6 order-lg-first aos-init aos-animate" data-aos="fade-right">
                     <div class="form-style-one md-mt-40">
-                        <form id="contact-form" on:submit|preventDefault={handleSubmit}>
-                            <div class="messages"></div>
-                            <div class="input-group-meta form-group mb-25">
-                              <label for="name">Name*</label>
-                              <input type="text" id="name" placeholder="Raghavan Jeeva" bind:value={name} required data-error="Name is required." />
-                            </div>
-                            <div class="input-group-meta form-group mb-25">
-                              <label for="email">Email*</label>
-                              <input type="email" id="email" placeholder="yourmailid@example.com" bind:value={email} required data-error="Valid email is required." />
-                            </div>
-                            <div class="input-group-meta form-group mb-25">
-                              <label for="contactNumber">Contact Number*</label>
-                              <input type="tel" id="contactNumber" placeholder="Your Contact Number" bind:value={contactNumber} required data-error="Contact Number is required." />
-                            </div>
-                            
-                            <div class="input-group-meta form-group mb-25">
-                              <label for="appointmentTime">Appointment Time</label>
-                              <input type="time" id="appointmentTime" bind:value={appointmentTime} />
-                            </div>
-                            <div class="input-group-meta form-group mb-25">
-                              <label for="appointmentDate">Appointment Date</label>
-                              <input type="date" id="appointmentDate" bind:value={appointmentDate} />
-                            </div>
-                            <div class="col-12"><button class="theme-btn-one ripple-btn w-100">Send Message</button></div>
-                          </form>
+                      <form id="contact-form" on:submit|preventDefault={handleSubmit}>
+                        <div class="messages"></div>
+                        <div class="input-group-meta form-group mb-25">
+                          <label for="name">Name*</label>
+                          <input type="text" id="name" placeholder="Raghavan Jeeva" bind:value={name} required data-error="Name is required." />
+                        </div>
+                        <div class="input-group-meta form-group mb-25">
+                          <label for="email">Email*</label>
+                          <input type="email" id="email" placeholder="yourmailid@example.com" bind:value={email} required data-error="Valid email is required." />
+                        </div>
+                        <div class="input-group-meta form-group mb-25">
+                          <label for="contactNumber">Contact Number*</label>
+                          <input type="tel" id="contactNumber" placeholder="Your Contact Number" bind:value={contactNumber} required data-error="Contact Number is required." />
+                        </div>
+                        <div class="input-group-meta form-group mb-25">
+                          <label for="appointmentTime">Appointment Time</label>
+                          <input type="time" id="appointmentTime" bind:value={appointmentTime} />
+                        </div>
+                        <div class="input-group-meta form-group mb-25">
+                          <label for="appointmentDate">Appointment Date</label>
+                          <input type="date" id="appointmentDate" bind:value={appointmentDate} />
+                        </div>
+                        <div class="col-12"><button class="theme-btn-one ripple-btn w-100">Send Message</button></div>
+                      </form>
                     </div> <!-- /.form-style-one -->
                 </div>
             </div>
