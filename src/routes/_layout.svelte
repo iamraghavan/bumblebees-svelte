@@ -7,10 +7,10 @@ import Nav from '../components/Nav.svelte';
 
 <Nav/>
 
-<main>
-	<div class="main-page-wrapper">
+<main class="main-page-wrapper">
+	
 		<slot></slot>
-	</div>
+	
 </main>
 
 
