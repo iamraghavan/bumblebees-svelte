@@ -49,7 +49,7 @@
   <!-- Section for showcasing WordPress services -->
   <div class="vcamp-text-block-thirteen pt-150 mb-130 lg-pt-100 lg-mb-80">
       <div class="container">
-          <div class="img-media mb-80 lg-mb-40"><img src="images/wordpress.png" alt="" class="w-100"></div>
+          <div class="img-media mb-80 lg-mb-40"><img src="images/wordpress.webp" alt="" class="w-100"></div>
           <div class="row mb-40">
               <div class="col-lg-12">
                   <!-- Replace the following with your introductory content -->

@@ -1,6 +1,6 @@
 <div class="offcanvas offcanvas-end sidebar-nav" tabindex="-1" id="offcanvasRight">
 	<div class="offcanvas-header">
-		<div class="logo"><a href="index.html"><img src="images/bumble-bees-logo.svg" alt="" width="127"></a></div>
+		<div class="logo"><a href="/"><img src="images/bumble-bees-logo.svg" alt="" width="127"></a></div>
 		<button type="button" class="close-btn tran3s" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x-lg"></i></button>
 	</div>
 	  

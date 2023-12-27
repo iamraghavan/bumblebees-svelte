@@ -26,7 +26,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-3 col-lg-2 mb-40">
-                <div class="logo"><a href="index.html"><img src="images/bbwhite.svg" style="padding: 0rem 1rem;" alt="Bumble Bees IT Solutions"></a></div>
+                <div class="logo"><a href="/"><img src="images/bbwhite.svg" style="padding: 0rem 1rem;" alt="Bumble Bees IT Solutions"></a></div>
                 <div class="newsletter">
                     <p class="">
                         We Design Your Dreams with Care and Creativity
@@ -84,8 +84,8 @@
             <div class="row">
                 <div class="col-lg-4 order-lg-1 mb-15">
                     <ul class="d-flex justify-content-center justify-content-lg-start footer-nav style-none">
-                        <li><a href="faqV1.html">Privacy &amp; Terms.</a></li>
-                        <li><a href="contactV1.html">Contact Us</a></li>
+                        <li><a href="/legal/privacy-policy">Privacy &amp; Terms.</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 order-lg-3 mb-15">
