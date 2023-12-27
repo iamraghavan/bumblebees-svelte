@@ -9,6 +9,10 @@
     
 </svelte:head>
 
+<script>
+    
+</script>
+
 <div class="user-data-page clearfix d-md-flex">
     <div class="illustration-wrapper d-none d-md-flex align-items-center justify-content-between flex-column" style="background: #F9F5F0;;">
         <div class="row">
