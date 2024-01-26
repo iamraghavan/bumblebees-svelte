@@ -9,11 +9,11 @@ import Nav from '../components/Nav.svelte';
 
 <Nav/>
 
-<main class="main-page-wrapper">
+<div class="main-page-wrapper">
 	
 		<slot></slot>
 	
-</main>
+</div>
 
 
 <Footer/>
