@@ -93,7 +93,7 @@ import emailjs from 'emailjs-com';
                     <h5 class="title">Contact Info</h5>
                     <p>Open a chat or give us call at <br><a href="tel:+919942502245" class="call">(+91) 99425 02245</a></p>
                     <hr>
-                    <p>give us call at <br><a href="tel:+919962160432" class="call">(+91) 99621 60432</a></p>
+                    <p>give us call at <br><a href="tel:+919790779521" class="call">(+91) 97907 79521</a></p>
                     <p>Marketing Support <br><a href="mailto:marketing.head@bumblebees.co.in" class="call">marketing.head@bumblebees.co.in</a></p>
                 </div> <!-- /.address-block-one -->
             </div>
