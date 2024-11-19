@@ -117,7 +117,7 @@ import Loader from "../components/Loader.svelte";
               last 4 year with satisfaction.
             </p>
             <div class="name position-relative">
-              Raghavan Jeeva (Lead Development Executive).
+              Raghavan Jeeva (Business Development Executive).
             </div>
           </div>
         </div>
