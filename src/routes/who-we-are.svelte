@@ -210,7 +210,7 @@ import EnquiryForm from "../components/EnquiryForm.svelte";
                     <div class="quote-wrapper">
                         <img src="images/icon/icon_10.svg" alt="" class="icon">
                         <blockquote>Our partnership with Bumble Bees IT Solutions has been transformative. Their support has been instrumental in solving every challenge.</blockquote>
-                        <h6 class="name">Raghavan Jeeva (Lead Development Executive).</h6>
+                        <h6 class="name">Raghavan Jeeva (Business Development Executive).</h6>
                     </div> <!-- /.quote-wrapper -->
                 </div>
             </div>
@@ -232,19 +232,19 @@ import EnquiryForm from "../components/EnquiryForm.svelte";
                 <p class="info-text">In the last four years, we've developed over <span>38+</span> stunning and high-quality Project.</p>
                 <div class="row">
                     <div class="col-sm-4 col-6">
-                        <div class="logo d-flex align-items-center"><a href="/"><img src="https://egspschools.com/assets/img/EGSPJ-International-School-Nagapattinam-Logo.png" alt="EGSPJ INT School" class="tran3s"></a></div>
+                        <div class="logo d-flex align-items-center"><a href="/"><img src="images/EGSPJ-International-School-Nagapattinam-Logo.png" alt="EGSPJ INT School" class="tran3s"></a></div>
                     </div>
                     <div class="col-sm-4 col-6">
-                        <div class="logo d-flex align-items-center"><a href="/"><img src="https://gogreenllc.org/wp-content/uploads/2023/10/GoGreenColor-2.png" alt="GoGreen" class="tran3s"></a></div>
+                        <div class="logo d-flex align-items-center"><a href="/"><img src="images/GoGreenColor.webp" alt="GoGreen" class="tran3s"></a></div>
                     </div>
                     <div class="col-sm-4 col-6">
-                        <div class="logo d-flex align-items-center"><a href="/"><img src="https://theiafashions.com/wp-content/uploads/2023/12/Asset-1Gold-Logo.png" alt="Theia Fashions" class="tran3s"></a></div>
+                        <div class="logo d-flex align-items-center"><a href="/"><img src="https://q3carcare.netlify.app/Logo/Q3%20-BLB%20BG.png" alt="Q3CareCare" class="tran3s"></a></div>
                     </div>
                     <div class="col-sm-4 col-6">
                         <div class="logo d-flex align-items-center"><a href="/"><img src="https://firebasestorage.googleapis.com/v0/b/adhitya-builders.appspot.com/o/Assets%2FLogo%2Flogo.png?alt=media&token=0ff9ca9a-a9a5-4eaa-b679-266a39141a31" alt="AD Builders" class="tran3s"></a></div>
                     </div>
                     <div class="col-sm-4 col-6">
-                        <div class="logo d-flex align-items-center"><a href="/"><img src="https://q3carcare.com/Logo/Q3%20-BLB%20BG.png" alt="" class="tran3s"></a></div>
+                        <div class="logo d-flex align-items-center"><a href="/"><img style="background-color: #222d35; padding: 0.5rem; " src="https://andavarcon.edu.in/images/logo-white.svg" alt="" class="tran3s"></a></div>
                     </div>
                     <div class="col-sm-4 col-6">
                         <div class="logo d-flex align-items-center"><a href="/"><img src="https://sarkconstruction.netlify.app/img/Sark-black.svg" alt="" class="tran3s"></a></div>

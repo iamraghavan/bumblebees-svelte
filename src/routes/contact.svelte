@@ -78,9 +78,13 @@ import emailjs from 'emailjs-com';
             <div class="col-md-4">
                 <div class="address-block-one text-center mb-40">
                     <div class="icon d-flex align-items-center justify-content-center m-auto"><img src="images/icon/icon_17.svg" alt=""></div>
-                    <h5 class="title">Our Address</h5>
+                    <h5 class="title">Our Registered Address</h5>
                     <p>No: 2 Dhermer Street, Collector Office (Pt)
                         <br>Nagapattinam, Tamil Nadu - 611003</p>
+                        <hr>
+                        <h5 class="title">Our Office Address</h5>
+                        <p>No: 13, Subbarayan Chetty,
+                            <br>Chennai, Tamil Nadu  - 600012</p>
                 </div> <!-- /.address-block-one -->
             </div>
             <div class="col-md-4">
@@ -88,6 +92,9 @@ import emailjs from 'emailjs-com';
                     <div class="icon d-flex align-items-center justify-content-center m-auto"><img src="images/icon/icon_18.svg" alt=""></div>
                     <h5 class="title">Contact Info</h5>
                     <p>Open a chat or give us call at <br><a href="tel:+919942502245" class="call">(+91) 99425 02245</a></p>
+                    <hr>
+                    <p>give us call at <br><a href="tel:+919962160432" class="call">(+91) 99621 60432</a></p>
+                    <p>Marketing Support <br><a href="mailto:marketing.head@bumblebees.co.in" class="call">marketing.head@bumblebees.co.in</a></p>
                 </div> <!-- /.address-block-one -->
             </div>
             <div class="col-md-4">
@@ -95,6 +102,9 @@ import emailjs from 'emailjs-com';
                     <div class="icon d-flex align-items-center justify-content-center m-auto"><img src="images/icon/icon_19.svg" alt=""></div>
                     <h5 class="title">Live Support</h5>
                     <p>live chat service <br><a href="/" class="webaddress">www.bumblebees.co.in/chat/whatsapp</a></p>
+                    <hr>
+                    <p>give us call at <br><a href="tel:+919344223822" class="call">(+91) 93442 23822</a></p>
+                    <p>Technical Support <br><a href="mailto:raghavan.head@bumblebees.co.in" class="call">raghavan@bumblebees.co.in</a></p>
                 </div> <!-- /.address-block-one -->
             </div>
         </div>
