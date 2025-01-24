@@ -62,7 +62,7 @@
                 <h5 class="title">When Our Bee's Got Recognized</h5>
                 <div class="row logos-container d-flex justify-content-center align-items-center">
                     <div class="col-6">
-                        <img src="images/good-firms.png" alt="" srcset="">
+                        <img src="images/Verified_Agency_v3.png" alt="" srcset="">
                     </div>
                     <div class="col-6">
                         <img src="images/startup-india-logo1-02-500x500.webp" alt="" srcset="">
