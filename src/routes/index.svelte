@@ -67,7 +67,7 @@ import Loader from "../components/Loader.svelte";
    @media (min-width: 576px) { 
 
     .h1of{
-      font-size: 85px !important;
+      font-size: 45px !important;
     }
 
     }
