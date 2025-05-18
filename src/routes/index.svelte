@@ -14,9 +14,9 @@
 import Loader from "../components/Loader.svelte";
   import Test from "../components/Test.svelte";
 
-  let heroHeading = "Empowering Your Ideas with Us";
+  let heroHeading = "The Complete 360° Marketing and IT Solutions for Your Business";
   let heroSubHeading =
-    "Transforming your concepts into reality, Bumble Bees IT Solutions is your dedicated partner for innovative and tailored IT solutions.";
+    "We blend technology and strategy to accelerate your business growth. From branding to Backend, our end-to-end solutions have you covered. Whether you're launching, scaling, or optimizing—we're your partner in progress. Experience seamless integration of IT and marketing under one roof";
 
   let services = [
     {
