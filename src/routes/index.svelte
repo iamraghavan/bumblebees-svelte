@@ -35,7 +35,7 @@ import Loader from "../components/Loader.svelte";
       icon: "images/icon/icon_26.svg",
       title: "Marketing",
       description:
-        "We blend technology and strategy to accelerate your business growth. From branding to backend, our end-to-end solutions have you covered. Whether you're launching, scaling, or optimizing—we're your partner in progress. Experience seamless integration of IT and marketing under one roof.",
+        "mpowering businesses with comprehensive digital marketing solutions. Take command of your digital presence with our strategic and effective marketing approaches.",
     },
   ];
 
@@ -147,9 +147,10 @@ import Loader from "../components/Loader.svelte";
             <div class="text-block">
               <h4>Who we are?</h4>
               <p>
-                Empowering success through IT solutions. Bumble Bees, since
-                2020, delivers excellence in web solutions for clients and team
-                prosperity.
+                We blend technology and strategy to accelerate your business growth.
+From branding to backend, our end-to-end solutions have you covered.
+Whether you're launching, scaling, or optimising, we're your partner in progress.
+Experience seamless integration of IT and marketing under one roof.
               </p>
               <p></p>
             </div>
