@@ -1,8 +1,8 @@
 <svelte:head>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bumble Bees IT Solutions - Transforming Ideas into Reality for Your Tech Excellence</title>
-<meta name="description" content="Discover seamless IT solutions with Bumble Bees in Chennai. From troubleshooting to innovations, we've got your tech covered! ">
+<title>The Complete 360° Marketing and IT Solutions for Your Business </title>
+<meta name="description" content="We blend technology and strategy to accelerate your business growth. From branding to backend, our end-to-end solutions have you covered. Whether you're launching, scaling, or optimizing—we're your partner in progress. Experience seamless integration of IT and marketing under one roof.">
 <meta name="author" content="Bumble Bees IT Solutions">
 <meta name="copyright" content="Bumble Bees IT Solutions">
 <meta name="robots" content="index, follow">
@@ -35,7 +35,7 @@ import Loader from "../components/Loader.svelte";
       icon: "images/icon/icon_26.svg",
       title: "Marketing",
       description:
-        "Empowering businesses with comprehensive digital marketing solutions. Take command of your digital presence with our strategic and effective marketing approaches.",
+        "We blend technology and strategy to accelerate your business growth. From branding to backend, our end-to-end solutions have you covered. Whether you're launching, scaling, or optimizing—we're your partner in progress. Experience seamless integration of IT and marketing under one roof.",
     },
   ];
 
