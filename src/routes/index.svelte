@@ -35,7 +35,7 @@ import Loader from "../components/Loader.svelte";
       icon: "images/icon/icon_26.svg",
       title: "Marketing",
       description:
-        "mpowering businesses with comprehensive digital marketing solutions. Take command of your digital presence with our strategic and effective marketing approaches.",
+        "Empowering businesses with comprehensive digital marketing solutions. Take command of your digital presence with our strategic and effective marketing approaches.",
     },
   ];
 
