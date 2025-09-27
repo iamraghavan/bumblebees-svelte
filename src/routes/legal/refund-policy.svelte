@@ -1,3 +1,7 @@
+<div class="vcamp-text-block-three mt-150 p0">
+    <div class=" pb-100">
+        <div class="container">
+
 <h1>Return and Refund Policy</h1>
 <p>Last updated: September 27, 2025</p>
 
@@ -87,3 +91,6 @@ Nagapattinam, Tamil Nadu - 611003</p>
 <p>By mail: No: 2 Dhermer Street, Collector Office (Pt) Nagapattinam, Tamil Nadu - 611003</p>
 </li>
 </ul>
+</div>
+</div>
+</div>
