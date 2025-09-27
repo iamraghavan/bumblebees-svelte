@@ -40,13 +40,14 @@
                     <li><a href="/who-we-are">Our History</a></li>
                     <li><a href="/contact">Contact Our Team</a></li>
                     <li><a href="/career">Career / Internships</a></li>
+                    <li><a href="/pricing">Pricing</a></li>
         
                 </ul>
                 <h5 class="title" style="padding-top: 1.6rem;">Legal</h5>
                 <ul class="footer-list style-none">
                     <li><a href="/legal/terms-and-condition">Terms &amp; Conditions</a></li>
                     <li><a href="/legal/privacy-policy">Privacy Policy</a></li>
-                   
+                   <li><a href="/legal/refund-policy">Refund Policy</a></li>
         
                 </ul>
             </div>
