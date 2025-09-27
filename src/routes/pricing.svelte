@@ -73,38 +73,40 @@
   ];
 </script>
 
-<div class="pricing-section">
+<div class="pricing-section-alt">
   <div class="container">
-    <div class="row text-center">
-      <div class="col-12">
-        <h2 class="section-title">Our Pricing Packages</h2>
-        <p class="section-description">Choose a package that best suits your business needs. We offer flexible plans for all kinds of digital solutions.</p>
-      </div>
+    <div class="text-center mb-5">
+      <h2 class="pricing-heading">Transparent Pricing</h2>
+      <p class="pricing-subheading">Affordable packages tailored to your needs.</p>
     </div>
-    
-    <div class="row">
-      {#each pricingPackages as { service, basic, standard, premium, description }}
-        <div class="col-md-4">
-          <div class="pricing-card">
-            <h4 class="pricing-title">{service}</h4>
-            <p class="pricing-description">{description}</p>
-            
-            <div class="pricing-plan">
-              <div class="pricing-option">
-                <h5>Basic</h5>
-                <p class="price">{basic}</p>
+
+    <div class="row gy-5">
+      {#each pricingPackages as pkg, i}
+        <div class="col-lg-4 col-md-6">
+          <div class="card pricing-card-alt">
+            <div class="card-header">
+              <h4 class="service-name">{pkg.service}</h4>
+              <p class="service-description">{pkg.description}</p>
+            </div>
+
+            <div class="card-body">
+              <div class="plan">
+                <span class="label">Basic</span>
+                <span class="amount">{pkg.basic}</span>
               </div>
-              <div class="pricing-option">
-                <h5>Standard</h5>
-                <p class="price">{standard}</p>
+              <div class="plan highlight">
+                <span class="label">Standard</span>
+                <span class="amount">{pkg.standard}</span>
               </div>
-              <div class="pricing-option">
-                <h5>Premium</h5>
-                <p class="price">{premium}</p>
+              <div class="plan">
+                <span class="label">Premium</span>
+                <span class="amount">{pkg.premium}</span>
               </div>
             </div>
-            
-            <a href="/contact" class="btn btn-primary">Contact Us</a>
+
+            <div class="card-footer">
+              <a href="/contact" class="btn-cta">Let's Talk</a>
+            </div>
           </div>
         </div>
       {/each}
@@ -113,80 +115,123 @@
 </div>
 
 <style>
-  .pricing-section {
-    padding: 50px 0;
-    background-color: #f9f9f9;
+  :root {
+    --primary-color: #4f46e5;
+    --light-bg: #f8f9fc;
+    --card-shadow: rgba(0, 0, 0, 0.06);
+    --highlight-bg: #eef2ff;
   }
 
-  .section-title {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
+  .pricing-section-alt {
+    padding: 80px 0;
+    background-color: var(--light-bg);
   }
 
-  .section-description {
-    font-size: 18px;
-    margin-bottom: 40px;
+  .pricing-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #111827;
   }
 
-  .pricing-card {
-    background-color: white;
-    padding: 30px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-    border-radius: 8px;
-    text-align: center;
-    transition: transform 0.3s ease;
+  .pricing-subheading {
+    font-size: 1.1rem;
+    color: #6b7280;
   }
 
-  .pricing-card:hover {
-    transform: translateY(-10px);
-  }
-
-  .pricing-title {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 20px;
-  }
-
-  .pricing-description {
-    font-size: 16px;
-    margin-bottom: 20px;
-    color: #777;
-  }
-
-  .pricing-plan {
+  .pricing-card-alt {
+    background-color: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px var(--card-shadow);
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 30px;
+    flex-direction: column;
+    height: 100%;
+    transition: all 0.3s ease;
   }
 
-  .pricing-option {
-    width: 30%;
+  .pricing-card-alt:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
   }
 
-  .pricing-option h5 {
-    font-size: 18px;
-    margin-bottom: 10px;
+  .card-header {
+    padding: 24px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .service-name {
+    font-size: 1.25rem;
     font-weight: 600;
+    margin-bottom: 10px;
+    color: #1f2937;
   }
 
-  .price {
-    font-size: 22px;
-    font-weight: bold;
-    color: #007bff;
+  .service-description {
+    font-size: 0.95rem;
+    color: #6b7280;
   }
 
-  .btn {
-    background-color: #007bff;
+  .card-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .plan {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: 12px 16px;
+    border-radius: 6px;
+    background-color: #f9fafb;
+    color: #111827;
+    font-weight: 500;
+  }
+
+  .plan.highlight {
+    background-color: var(--highlight-bg);
+    font-weight: 600;
+    color: var(--primary-color);
+  }
+
+  .label {
+    font-weight: 500;
+  }
+
+  .amount {
+    font-weight: 700;
+  }
+
+  .card-footer {
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .btn-cta {
+    display: inline-block;
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: var(--primary-color);
     color: white;
-    padding: 10px 20px;
-    font-size: 16px;
+    border-radius: 6px;
     text-decoration: none;
-    border-radius: 5px;
+    transition: background-color 0.3s ease;
   }
 
-  .btn:hover {
-    background-color: #0056b3;
+  .btn-cta:hover {
+    background-color: #3730a3;
+  }
+
+  @media (max-width: 768px) {
+    .plan {
+      font-size: 0.9rem;
+    }
+
+    .pricing-heading {
+      font-size: 2rem;
+    }
   }
 </style>
